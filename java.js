@@ -35,8 +35,41 @@
 // console.log(gio + ":" + phut + ":"+ giay);
 
 // BAI6
-// let user = {
-//     name: prompt("Nhap ten nguoi dung"),
+let user = {
+    name: "Tien",
+    pass: "123Tien",
+    email: "lamtien98@gmail.com",
+    phone: "0909123456",
+}
+console.log(user.name);
+console.log(user.pass);
+console.log(user.email);
+console.log(user.phone);
+user.name = prompt("Nhap ten nguoi dung");
+user.pass = prompt("Nhap mat khau");
+user.email = prompt("Nhap email cua ban");
+user.phone = Number(prompt("Nhap so dien thoai cua ban"));
+let a = user.phone % 10;
+let z = Math.floor(phone/10);
+let b = z % 10;
+let y = Math.floor(z/10);
+let c = y % 10;
+let x = Math.floor(y/10);
+let d = x % 10;
+let w = Math.floor(x/10);
+let e = w % 10;
+let v = Math.floor(w/10);
+let f = v % 10;
+let u = Math.floor(v/10);
+let g = u % 10;
+let t = Math.floor(u/10);
+let h = t % 10;
+let s = Math.floor(t/10);
+let i = s % 10;
+let tong = a+b+c+d+e+f+g+h+i;
+console.log("Tong so dien thoai cua ban la:", tong);
+
+//     name: ,
 //     pass: prompt("Nhap mat khau"),
 //     email: prompt("Nhap email"),
 //     phone: prompt("Nhap so dien thoai")
@@ -75,3 +108,5 @@
 // console.log(player.number);
 // console.log(player.skill);
 // console.log("Chi so trung binh cua cau thu la", skill);
+
+
